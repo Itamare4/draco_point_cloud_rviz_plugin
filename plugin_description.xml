@@ -1,0 +1,10 @@
+<library path="libdraco_point_cloud_rviz_plugin">
+  <class name="draco_point_cloud_rviz_plugin/PointCloud2Draco"
+         type="draco_point_cloud_rviz_plugin::CompressedPointCloud2Display"
+         base_class_type="rviz::Display">
+    <description>
+      Displays Compressed PointCloud2 from draco_point_cloud_transport/CompressedPointCloud2 messages.
+    </description>
+    <message_type>draco_point_cloud_transport/CompressedPointCloud2</message_type>
+  </class>
+</library>

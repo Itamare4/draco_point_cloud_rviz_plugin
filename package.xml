@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>draco_point_cloud_rviz_plugin</name>
+  <version>0.0.1</version>
+  <description>compressed PointCloud2 RVIZ plugin based on Google Draco</description>
+
+  <maintainer email="itamare@gmail.com">Itamar Eliakim</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rviz</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>roslib</build_depend>
+  <build_depend>draco_point_cloud_transport</build_depend>
+  <build_depend>draco</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rviz</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>roslib</build_export_depend>
+  <build_export_depend>draco_point_cloud_transport</build_export_depend>
+  <build_export_depend>draco</build_export_depend>
+  
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>roslib</exec_depend>
+  <exec_depend>draco_point_cloud_transport</exec_depend>
+  <exec_depend>draco</exec_depend>
+
+
+  <export>
+    <rviz plugin="${prefix}/plugin_description.xml"/>
+  </export>
+</package>
