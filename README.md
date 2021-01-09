@@ -1,6 +1,8 @@
 DRACO PointCloud2 RViz Plugin
 ------------------------
 
+![](https://www.rootiebot.com/github/draco_point_cloud_rviz_plugin.gif)
+
 Plugin for the ROS (Robot Operating System) visualizer RViz, to display draco PointCloud2 messages.
 This plugin adds a new display type, named `PointCloud2Draco`.
 
